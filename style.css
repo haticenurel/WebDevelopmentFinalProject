@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Red Hat Display", sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url("./images/pattern-background-desktop\ kopyası.svg");
+    background-repeat: no-repeat; 
+    background-size: contain;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    height: 100vh;
+}
+.logo{
+    display: flex;
+    width: 9%;
+    height: 12%;
+    background-color:transparent;
+    border-radius: 9999px;
+    overflow: hidden;
+}
+.students-details{
+    background-color: #D2DAFF;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-around;
+    width: 96%;
+    padding: 16px;
+    margin: 8px;
+    gap : 16px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    gap: 16px;
+}
+
+.lectures-details{
+    background-color: #D2DAFF;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-around;
+    padding: 16px;
+    border-collapse: separate;  
+    width: 99%;
+    margin: 16px;
+    border-spacing: 0 1em;
+    overflow: hidden;
+    gap : 16px;
+}
+.lectureRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 16px;
+}
+
+h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #424874;
+}
+th{
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    color:#424874;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+button{
+    background-color: #AAC4FF;
+    border-radius: 16px;
+    padding: 16px;
+    text-align: center;
+    color:#3F0071;
+    font-weight: 600;
+    font-size: 0.8rem;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #3F0071;
+    color: #AAC4FF;
+}
+input{
+    border-radius: 16px;
+    padding: 16px;
+    text-align: center;
+    color:#424874;
+    font-weight: 500;
+    font-size: 0.8rem;
+    border: none;
+    cursor: pointer;
+}

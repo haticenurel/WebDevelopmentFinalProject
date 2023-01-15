@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <div class="logo">
+        <img src="./images/logo.png" alt="logo">
+    </div>
+    <div class="title">
+        <h1>Student Management System</h1>
+    </div>
+    <form method="get" id="lecture-form" >
+        <table class="lectures-header">
+            <tr>
+                <th>Lecture Identical Number</th>
+                <th>Lecture Name</th>
+                <th>Number of Students</th>
+                <th>Number of Faileds</th>
+                <th>Number of Passeds</th>
+                <th>Average Score</th>
+            </tr>
+        </table>
+        <div class="lectures-details"></div>
+        <!-- input for lecture code -->
+        <input type="number" class="lecture-id-input" placeholder="Lecture ID">
+        <!-- input for lecture name -->
+        <input type="text" class="lecture-name-input" placeholder="Lecture Name">
+        <button class="add-lecture-button" type="submit">Add Lecture</button>
+    </form> 
+
+  
+    <form method="get" id="student-form" >
+        <table class="students-header">
+            <tr>
+                <th>Student ID</th>
+                <th>Student Name</th>
+                <th>Student Surname</th>
+                <th>Midterm Score</th>
+                <th>Final Score</th>
+                <th>Letter Grade</th>
+                <th>Is Failed?</th>
+            </tr>
+        </table>
+
+        <div class="students-details"></div>
+        <!-- input for lecture code -->
+        <input type="number" class="lecture-id-input" placeholder="Lecture ID">
+        <!-- input for student id number -->
+        <input type="number" class="student-id-input" placeholder="Student ID">
+        <!-- input for student name -->
+        <input type="text" class="student-name-input" placeholder="Student Name">
+        <!-- input for student surname -->
+        <input type="text" class="student-surname-input" placeholder="Student Surname">
+        <!-- input for student midterm score -->
+        <input type="number" class="student-midterm-input" placeholder="Student Midterm Score">
+        <!-- input for student final score -->
+        <input type="number" class="student-final-input" placeholder="Student Final Score">
+        <button class="add-student-button" type="submit">Add Student</button>
+
+    </form>
+
+    <form method="get" id="add-student-to-lecture-form">
+
+        <button class="add-student-to-lecture-button" type="submit">Add Student to Lecture</button>
+    </form>
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
